@@ -16,12 +16,38 @@ class RoadmapController extends Controller
     public function create(): View
     {
         $studyPrograms = StudyProgram::all();
-        $subjects = Subject::orderBy('year')->orderBy('semester_type')->get();
+        // Don't fetch subjects here - they'll be loaded dynamically via AJAX
 
         return view('roadmap.create', [
             'studyPrograms' => $studyPrograms,
-            'subjects' => $subjects,
+            'subjects' => [], // Empty initially, will be populated by JavaScript
         ]);
+    }
+
+    /**
+     * Get subjects for a specific study program via AJAX
+     */
+    public function getSubjectsByProgram($programId)
+    {
+        $program = StudyProgram::findOrFail($programId);
+        $subjects = $program->subjects()
+            ->orderBy('year')
+            ->orderBy('semester_type')
+            ->get()
+            ->map(function ($subject) {
+                return [
+                    'id' => $subject->id,
+                    'code' => $subject->code,
+                    'name' => $subject->name,
+                    'name_mk' => $subject->name_mk,
+                    'year' => $subject->year,
+                    'semester_type' => $subject->getSemesterTypeFromCode(), // Use code-derived type
+                    'subject_type' => $subject->pivot->type ?? 'mandatory', // Get type from pivot
+                    'credits' => $subject->credits,
+                ];
+            });
+
+        return response()->json($subjects);
     }
 
     /**
@@ -71,10 +97,12 @@ class RoadmapController extends Controller
 
         // Generate roadmap
         $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds);
+        $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds);
 
         return view('roadmap.show', [
             'studyProgram' => $studyProgram,
             'roadmap' => $roadmap,
+            'semesterRoadmap' => $semesterRoadmap,
             'completed' => collect($completedIds),
             'inProgress' => collect($inProgressIds),
         ]);
@@ -158,12 +186,64 @@ class RoadmapController extends Controller
             ->toArray();
 
         $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds);
+        $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds);
 
         return view('roadmap.show', [
             'studyProgram' => $studyProgram,
             'roadmap' => $roadmap,
+            'semesterRoadmap' => $semesterRoadmap,
             'completed' => collect($completedIds),
             'inProgress' => collect($inProgressIds),
         ]);
+    }
+
+    /**
+     * Generate semester-by-semester roadmap for upcoming years
+     */
+    private function generateSemesterRoadmap(StudyProgram $studyProgram, array $completedIds, array $inProgressIds)
+    {
+        $allSubjects = $studyProgram->subjects()->orderBy('year')->orderBy('semester_type')->get();
+
+        // Build roadmap organized by year and semester
+        $roadmap = [];
+
+        foreach ($allSubjects as $subject) {
+            $year = $subject->year;
+            $semester = $subject->getSemesterTypeFromCode() === 'winter' ? 'winter' : 'summer';
+
+            // Skip if already completed or in progress
+            if (in_array($subject->id, $completedIds) || in_array($subject->id, $inProgressIds)) {
+                continue;
+            }
+
+            // Check prerequisites
+            $prerequisites = $subject->prerequisites()->get();
+            $prerequisitesMet = true;
+
+            if ($prerequisites->isNotEmpty()) {
+                foreach ($prerequisites as $prerequisite) {
+                    if (!in_array($prerequisite->id, $completedIds)) {
+                        $prerequisitesMet = false;
+                        break;
+                    }
+                }
+            }
+
+            // Initialize year structure if needed
+            if (!isset($roadmap[$year])) {
+                $roadmap[$year] = [
+                    'winter' => [],
+                    'summer' => [],
+                ];
+            }
+
+            $roadmap[$year][$semester][] = [
+                'subject' => $subject,
+                'ready' => $prerequisitesMet,
+                'prerequisites' => $prerequisites,
+            ];
+        }
+
+        return $roadmap;
     }
 }

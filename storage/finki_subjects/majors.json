@@ -1,0 +1,4455 @@
+[
+  {
+    "major": "Интернет, мрежи и безбедност",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Бизнис и менаџмент",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вовед во компјутерските науки",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Професионални вештини",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Структурно програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "Дискретна математика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски архитектури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно-ориентирано програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Основи на сајбер безбедноста",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Спорт и здравје",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Бизнис статистика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Калкулус 2",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски компоненти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Креативни вештини за решавање проблеми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Маркетинг",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Објектно ориентирана анализа и дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Алгоритми и податочни структури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски мрежи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Основи на теоријата на информации",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Инженерска математика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет програмирање на клиентска страна",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на комуникациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со техничката поддршка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Безжични и мобилни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Оперативни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вештачка интелигенција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во екоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во случајни процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет технологии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Медиуми и комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Одржливи и енергетски ефикасни компјутерски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверско инженерство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Администрација на системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Бази на податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Мрежна безбедност",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Веб програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во науката за податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Информациска безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска етика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски звук, говор и музика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Линеарна алгебра и примени",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на роботиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Паралелно и дистрибуирано процесирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Администрација на мрежи",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелизација",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Агентно-базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вградливи микропроцесорски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во мрежна наука",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на интеракцијата човек-компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електронска и мобилна трговија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Инфраструктурно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Континуирана интеграција и испорака",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Криптографија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мерење и анализа на интернет сообраќај",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Сервисно ориентирани архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски дефинирана безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дистрибуирани системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Пресметување во облак",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Администрација на бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Анализа и дизајн на ИС",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во биоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во паметни градови",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална постпродукција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дистрибуирано складирање на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Имплементација на системи со слободен и отворен код",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Иновации во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинска визија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Методологија на истражувањето во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни платформи и програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мрежна и мобилна форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Оптички мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски дефинирани мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дипломска работа",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дизајн на компјутерски мрежи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Блоковски вериги и криптовалути",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб пребарувачки системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Географски информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Етичко хакирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни апликации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Моделирање и менаџирање на бизнис процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Модерни трендови во роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни теми од криптографија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Неструктурирани бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Претприемништво",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Складови на податоци и аналитичка обработка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Споделување и пресметување во толпа",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со ИКТ проекти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Компјутерска едукација",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Вовед во компјутерските науки",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дискретна математика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Педагогија",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Професионални вештини",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Структурно програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "ИТ системи за учење",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски архитектури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно-ориентирано програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Спорт и здравје",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Бизнис статистика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Калкулус 2",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски компоненти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Креативни вештини за решавање проблеми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Маркетинг",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Објектно ориентирана анализа и дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Алгоритми и податочни структури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски мрежи и безбедност",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Мултимедијални технологии",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Веројатност и статистика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет програмирање на клиентска страна",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со техничката поддршка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Шаблони за дизајн на кориснички интерфејси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "ИКТ во образованието",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Оперативни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вештачка интелигенција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во екоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на алгоритми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Е-влада",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електрични кола",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет технологии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска графика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Медиуми и комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверско инженерство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Споделување и пресметување во толпа",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Бази на податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дизајн на образовен софтвер",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерска етика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Напреден веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во науката за податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Информациска безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски звук, говор и музика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Линеарна алгебра и примени",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на роботиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Персонализирано учење",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Психологија на училишна возраст",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Работа со надарени ученици",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Виртуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитални библиотеки",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на интеракцијата човек-компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Континуирана интеграција и испорака",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Сервисно ориентирани архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски квалитет и тестирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Учење на далечина",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 4,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Самостоен проект",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вовед во биоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална постпродукција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Имплементација на системи со слободен и отворен код",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет на нештата",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинска визија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Методологија на истражувањето во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни платформи и програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредна интеракција човек компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмирање на видео игри",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Социјални мрежи и медиуми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Дипломска работа",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Македонски јазик",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Методика на информатиката",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Блоковски вериги и криптовалути",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелна реалност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во когнитивни науки",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска анимација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни апликации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Неструктурирани бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Претприемништво",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со ИКТ проекти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Компјутерски науки",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Вовед во компјутерските науки",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дискретни структури 1",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус 1",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Професионални вештини",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Структурно програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "Архитектура и организација на компјутери",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дискретни структури 2",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус 2",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно-ориентирано програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Спорт и здравје",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски компоненти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Креативни вештини за решавање проблеми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Маркетинг",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Објектно ориентирана анализа и дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Алгоритми и податочни структури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Веројатност и статистика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски мрежи и безбедност",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Инженерска математика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет програмирање на клиентска страна",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со техничката поддршка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Шаблони за дизајн на кориснички интерфејси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Вештачка интелигенција",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Оперативни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Софтверско инженерство",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Анализа на софтверските барања",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични и мобилни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во екоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во случајни процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитално процесирање на слика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на алгоритми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електрични кола",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет технологии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска графика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Медиуми и комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Теорија на информации со дигитални комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Бази на податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Линеарна алгебра и примени",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Паралелно и дистрибуирано процесирање",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во науката за податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн и архитектура на софтвер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Информациска безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска етика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски звук, говор и музика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мрежна безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напреден веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на роботиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дизајн на интеракцијата човек-компјутер",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинско учење",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Формални јазици и автомати",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Агентно-базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вградливи микропроцесорски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во мрежна наука",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Географски информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електронска и мобилна трговија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интегрирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Континуирана интеграција и испорака",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Криптографија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мерење и анализа на интернет сообраќај",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Паралелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Податочно рударство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Процесирање на сигналите",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Процесна роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Сервисно ориентирани архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Современи компјутерски архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски квалитет и тестирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Статистичко моделирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 4,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Програмски парадигми",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Автономна роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Анализа и дизајн на ИС",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во анализа на временските серии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во биоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во паметни градови",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во препознавање на облици",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална постпродукција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дистрибуирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Имплементација на системи со слободен и отворен код",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет на нештата",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинска визија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Менаџмент информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Методологија на истражувањето во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни платформи и програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Моделирање и симулација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредна интеракција човек компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Обработка на природните јазици",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Операциони истражувања",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Оптички мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Пресметување во облак",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмирање на видео игри",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Рударење на масивни податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Системи за поддршка при одлучувањето",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтвер за вградливи системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Социјални мрежи и медиуми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 4,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Дипломска работа",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Биолошки инспирирано пресметување",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Блоковски вериги и криптовалути",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб пребарувачки системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелна реалност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во когнитивни науки",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "ИКТ за развој",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска анимација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни апликации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Модерни трендови во роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни теми од криптографија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Неструктурирани бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Пресметковна биологија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Претприемништво",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмски јазици и компајлери",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Складови на податоци и аналитичка обработка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Споделување и пресметување во толпа",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со ИКТ проекти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Компјутерско инженерство",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Дизајн на дигитални кола",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус 1",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Професионални вештини",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Структурно програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Физика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "Дискретна математика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус 2",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски архитектури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно-ориентирано програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Спорт и здравје",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски компоненти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Креативни вештини за решавање проблеми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Маркетинг",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Објектно ориентирана анализа и дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на сајбер безбедноста",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Алгоритми и податочни структури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Веројатност и статистика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски мрежи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Инженерска математика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет програмирање на клиентска страна",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на комуникациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со техничката поддршка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Шаблони за дизајн на кориснички интерфејси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Електрични кола",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Оперативни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Софтверско инженерство",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Анализа на софтверските барања",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични и мобилни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вештачка интелигенција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во екоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во случајни процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитално процесирање на слика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на алгоритми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет технологии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска графика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Медиуми и комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Одржливи и енергетски ефикасни компјутерски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Теорија на информации со дигитални комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Бази на податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Информациска безбедност",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска електроника",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во науката за податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн и архитектура на софтвер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска етика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски звук, говор и музика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Линеарна алгебра и примени",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мрежна безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напреден веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на роботиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Паралелно и дистрибуирано процесирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 4,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Вградливи микропроцесорски системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Процесирање на сигналите",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Агентно-базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во мрежна наука",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на интеракцијата човек-компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интегрирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Континуирана интеграција и испорака",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Криптографија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинско учење",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мерење и анализа на интернет сообраќај",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Паралелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Податочно рударство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Процесна роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Сервисно ориентирани архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Современи компјутерски архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски квалитет и тестирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Статистичко моделирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 4,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Софтвер за вградливи системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Автономна роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во биоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во паметни градови",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во препознавање на облици",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална постпродукција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дистрибуирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дистрибуирано складирање на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Имплементација на системи со слободен и отворен код",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет на нештата",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски поддржано производство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинска визија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Менаџмент информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Методологија на истражувањето во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни платформи и програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Моделирање и симулација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мрежна и мобилна форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредна интеракција човек компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Операциони истражувања",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Оптички мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Пресметување во облак",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмирање на видео игри",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмски парадигми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Социјални мрежи и медиуми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дипломска работа",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Управување со ИКТ проекти",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Биолошки инспирирано пресметување",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Блоковски вериги и криптовалути",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб пребарувачки системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелна реалност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во когнитивни науки",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на компјутерски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Етичко хакирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска анимација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни апликации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Модерни трендови во роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Неструктурирани бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Претприемништво",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Споделување и пресметување во толпа",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Примена на информациски технологии",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Бизнис и менаџмент",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вовед во компјутерските науки",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дискретна математика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Професионални вештини",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Структурно програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "Архитектура и организација на компјутери",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Бизнис статистика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Маркетинг",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно-ориентирано програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Спорт и здравје",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "ИТ системи за учење",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Калкулус 2",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Калкулус",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски компоненти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Креативни вештини за решавање проблеми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Објектно ориентирана анализа и дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Алгоритми и податочни структури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски мрежи и безбедност",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дигитизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Економија за ИКТ инженери",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет програмирање на клиентска страна",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со техничката поддршка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Шаблони за дизајн на кориснички интерфејси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Оперативни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Софтверско инженерство",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Анализа на софтверските барања",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични и мобилни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вештачка интелигенција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во екоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во случајни процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на алгоритми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Е-влада",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електрични кола",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет технологии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска графика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Концепти на информатичко општество",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Медиуми и комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Бази на податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Веб програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вовед во науката за податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн и архитектура на софтвер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Информациска безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска етика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски звук, говор и музика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Линеарна алгебра и примени",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напреден веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на роботиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дизајн на интеракцијата човек-компјутер",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Електронска и мобилна трговија",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Агентно-базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вградливи микропроцесорски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во мрежна наука",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Географски информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интегрирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Континуирана интеграција и испорака",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинско учење",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Податочно рударство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Сервисно ориентирани архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски дефинирана безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски квалитет и тестирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Менаџмент информациски системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Тимски проект",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Автономна роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Анализа и дизајн на ИС",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во биоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во паметни градови",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во препознавање на облици",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална постпродукција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Имплементација на системи со слободен и отворен код",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Иновации во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет на нештата",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинска визија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Методологија на истражувањето во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни платформи и програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредна интеракција човек компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Пресметување во облак",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмирање на видео игри",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмски парадигми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Системи за поддршка при одлучувањето",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтвер за вградливи системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски дефинирани мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Социјални мрежи и медиуми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Дипломска работа",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Претприемништво",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Управување со ИКТ проекти",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Биолошки инспирирано пресметување",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Блоковски вериги и криптовалути",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб пребарувачки системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во когнитивни науки",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "ИКТ за развој",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска анимација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни апликации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Моделирање и менаџирање на бизнис процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Модерни трендови во роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Неструктурирани бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Складови на податоци и аналитичка обработка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Споделување и пресметување во толпа",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Софтверско инженерство и информациски системи",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Бизнис и менаџмент",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вовед во компјутерските науки",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Професионални вештини",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Структурно програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "Архитектура и организација на компјутери",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Дискретна математика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно ориентирана анализа и дизајн",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Објектно-ориентирано програмирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Спорт и здравје",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Калкулус 2",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски компоненти",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Креативни вештини за решавање проблеми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Маркетинг",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на сајбер безбедноста",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Алгоритми и податочни структури",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Веројатност и статистика",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Компјутерски мрежи и безбедност",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Економија за ИКТ инженери",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Инженерска математика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет програмирање на клиентска страна",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Управување со техничката поддршка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Шаблони за дизајн на кориснички интерфејси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Анализа на софтверските барања",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Оперативни системи",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Безжични и мобилни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вештачка интелигенција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во екоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во случајни процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитално процесирање на слика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн на алгоритми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Е-влада",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електрични кола",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет технологии",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска графика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Концепти на информатичко општество",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Медиуми и комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Теорија на информации со дигитални комуникации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Бази на податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Вовед во науката за податоци",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дизајн и архитектура на софтвер",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Администрација на системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Визуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Информациска безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска етика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерски звук, говор и музика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Линеарна алгебра и примени",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напреден веб дизајн",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Основи на роботиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дизајн на интеракцијата човек-компјутер",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интегрирани системи",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски квалитет и тестирање",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Агентно-базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Безжични мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вградливи микропроцесорски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелизација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во мрежна наука",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Географски информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална форензика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Електронска и мобилна трговија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Континуирана интеграција и испорака",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинско учење",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мултимедиски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Паралелно програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Податочно рударство",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Процесирање на сигналите",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Сервисно ориентирани архитектури",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски дефинирана безбедност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Статистичко моделирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Формални јазици и автомати",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 4,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Тимски проект",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Автономна роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Администрација на бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Анализа и дизајн на ИС",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб базирани системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во биоинформатиката",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во паметни градови",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во препознавање на облици",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Дигитална постпродукција",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Имплементација на системи со слободен и отворен код",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Иновации во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интернет на нештата",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Машинска визија",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Менаџмент информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Методологија на истражувањето во ИКТ",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни платформи и програмирање",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредна интеракција човек компјутер",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Обработка на природните јазици",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Операциони истражувања",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Пресметување во облак",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмирање на видео игри",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Програмски парадигми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Рударење на масивни податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Системи за поддршка при одлучувањето",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтвер за вградливи системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Софтверски дефинирани мрежи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Социјални мрежи и медиуми",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Дипломска работа",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Управување со ИКТ проекти",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Биолошки инспирирано пресметување",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Блоковски вериги и криптовалути",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Веб пребарувачки системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Виртуелна реалност",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Вовед во когнитивни науки",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "ИКТ за развој",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни информациски системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Интелигентни системи",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Компјутерска анимација",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Мобилни апликации",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Моделирање и менаџирање на бизнис процеси",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Модерни трендови во роботика",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Напредни бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Неструктурирани бази на податоци",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Претприемништво",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Складови на податоци и аналитичка обработка",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Споделување и пресметување во толпа",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Software engineering and information systems",
+    "curriculum": [
+      {
+        "semester": 1,
+        "slots": 5,
+        "electiveSlots": 0,
+        "electiveSlotsThreeYear": 0,
+        "subjects": [
+          {
+            "subject": "Business and Management",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Calculus",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Introduction to Computer Science",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Professional skills",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Structural programming",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "slots": 6,
+        "electiveSlots": 1,
+        "electiveSlotsThreeYear": 1,
+        "subjects": [
+          {
+            "subject": "Computer Architecture and Organization",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Discrete Mathematics",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Object Oriented Analysis and Design",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Object oriented programming",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Sport and health",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Calculus 2",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Computer Components",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Cybersecurity for Beginners",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Fundamentals of web design",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Marketing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Puzzle based learning",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Algorithms and Data Structures",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Computer Networks and Security",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Probability and statistics",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Advanced programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Client side Inernet programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Economy for ICT engineers",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "User interfaces design patterns",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "User support",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Еngineering mathematics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Operating systems",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Software requirements analysis",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Algorithm design",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Artificial Intelligence",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Computer graphics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Concepts of Information Society",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Digital image processing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "E-government",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Electric Circuits",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Information theory and digital communications",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Internet technologies",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to Ecoinformatics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to Stochastic Processes",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Media and Communications",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Visual programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Wireless mobile systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Databases",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Introduction to Data Science",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Software Design and Architecture",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Advanced Web Design",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Computer audio, speech and music",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Computer ethics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Information security",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to robotics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Linear algebra and applications",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Multimedia Networks",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "System administration",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Visualization",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Web Programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "slots": 5,
+        "electiveSlots": 2,
+        "electiveSlotsThreeYear": 2,
+        "subjects": [
+          {
+            "subject": "Human-computer interaction design",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Integrated Systems",
+            "mandatory": true,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Software quality and testing",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Agent-based systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Data mining",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "DevOps",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Digital Forensics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Electronic and Mobile Commerce",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Embedded microprocessor systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Formal languages and automata",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Geographic Information Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to network science",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Machine learning",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Multimedia systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Parallel programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Service Oriented Architectures",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Signal processing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Software defined security",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Statistical modelling",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Virtualization",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Wireless Multimedia Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 7,
+        "slots": 5,
+        "electiveSlots": 4,
+        "electiveSlotsThreeYear": 4,
+        "subjects": [
+          {
+            "subject": "Team project",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Advanced Human Computer Interaction",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Autonomous robotics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Cloud computing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Database administration",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Decision support systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Digital Post-production",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Implementation of Free and Open Source Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Information Systems Analysis and Design",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Innovation in ICT",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to Bioinformatics",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to Pattern Recognition",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to Smart Cities",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "IoT",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Machine Vision",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Management Information Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Mining Massive Data Sets",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Mobile Information Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Mobile platforms and programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Natural language processing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Operations research",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Research methodology in ICT",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Social media networks",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Software defined networks",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Software for embedded systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Video games programming",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Web Based Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      },
+      {
+        "semester": 8,
+        "slots": 5,
+        "electiveSlots": 3,
+        "electiveSlotsThreeYear": 3,
+        "subjects": [
+          {
+            "subject": "Diploma thesis",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "ICT Project Management",
+            "mandatory": true,
+            "mandatoryThreeYear": true
+          },
+          {
+            "subject": "Advanced Databases",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Biology inspired computing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Blockchain and cryptocurrencies",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Business process modeling and management",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Computer Animation",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Crowd-sourcing and human computing",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Data Warehouses and OLAP",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Entrepreneurship",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "ICT for Development",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Intelligent Information Systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Intelligent systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Intelligent systems",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Introduction to Computer Science",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Mobile Applications",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Modern robotics trends",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Non-relational databases",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Virtual reality",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          },
+          {
+            "subject": "Web search engines",
+            "mandatory": false,
+            "mandatoryThreeYear": false
+          }
+        ]
+      }
+    ]
+  }
+]

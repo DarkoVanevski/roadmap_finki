@@ -20,11 +20,14 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+            'role' => 'student',
         ]);
 
         $this->call([
+            AdminUserSeeder::class,
             SubjectSeeder::class,
             StudyProgramSeeder::class,
+            AssignSubjectsToStudyProgramsSeeder::class,
         ]);
     }
 }

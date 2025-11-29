@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RoadmapController;
+use App\Http\Controllers\SubjectController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -21,6 +22,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/roadmap/create', [RoadmapController::class, 'create'])->name('roadmap.create');
     Route::post('/roadmap', [RoadmapController::class, 'store'])->name('roadmap.store');
     Route::get('/roadmap', [RoadmapController::class, 'show'])->name('roadmap.show');
+    Route::get('/api/study-program/{programId}/subjects', [RoadmapController::class, 'getSubjectsByProgram'])->name('api.program.subjects');
+
+    // Admin routes
+    Route::resource('subjects', SubjectController::class)->middleware('admin');
 });
 
 require __DIR__.'/auth.php';

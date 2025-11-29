@@ -1,0 +1,1338 @@
+[
+    {
+        "subject_file": "pdfs/programski_paradigmi.pdf",
+        "name": "Програмски парадигми",
+        "code": "F18L3W038",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/mashinska_vizija.pdf",
+        "name": "Машинска визија",
+        "code": "F18L3W123",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Дигитално процесирање на слика",
+                "Машинско учење"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kompjuterska_grafika.pdf",
+        "name": "Компјутерска графика",
+        "code": "F18L2S114",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ],
+            [
+                "Дискретна математика",
+                "Дискретни структури 2"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/geografski_informaciski_sistemi.pdf",
+        "name": "Географски информациски системи",
+        "code": "F18L3S091",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/biznis_i_menadzhment.pdf",
+        "name": "Бизнис и менаџмент",
+        "code": "F18L1W005",
+        "level": 1,
+        "semester": "Зимски",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/inteligentni_sistemi.pdf",
+        "name": "Интелигентни системи",
+        "code": "F18L3S107",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Машинско учење"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/avtonomna_robotika.pdf",
+        "name": "Автономна роботика",
+        "code": "F18L3W072",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Основи на роботиката"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/napreden_veb_dizajn_0.pdf",
+        "name": "Напреден веб дизајн",
+        "code": "F18L3W136",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Основи на веб дизајн"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/digitizacija.pdf",
+        "name": "Дигитизација",
+        "code": "F18L2W096",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Вовед во компјутерските науки"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/programiranje_na_video_igri.pdf",
+        "name": "Програмирање на видео игри",
+        "code": "F18L3W152",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/softverski_definirana_bezbednost.pdf",
+        "name": "Софтверски дефинирана безбедност",
+        "code": "F18L3S159",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Информациска безбедност",
+                "Мрежна безбедност"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/pretpriemnishtvo.pdf",
+        "name": "Претприемништво",
+        "code": "F18L3S028",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бизнис и менаџмент"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/elektronska_i_mobilna_trgovija.pdf",
+        "name": "Електронска и мобилна трговија",
+        "code": "F18L3S025",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/administracija_na_bazi_na_podatoci.pdf",
+        "name": "Администрација на бази на податоци",
+        "code": "F18L3W074",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/biznis_statistika.pdf",
+        "name": "Бизнис статистика",
+        "code": "F18L1S023",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/veb_bazirani_sistemi.pdf",
+        "name": "Веб базирани системи",
+        "code": "F18L3W079",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/softverski_definirani_mrezhi.pdf",
+        "name": "Софтверски дефинирани мрежи",
+        "code": "F18L3W160",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Компјутерски мрежи"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/operativni_sistemi.pdf",
+        "name": "Оперативни системи",
+        "code": "F18L2S017",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Архитектура и организација на компјутери",
+                "Компјутерски архитектури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/virtuelizacija.pdf",
+        "name": "Виртуелизација",
+        "code": "F18L3S062",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Оперативни системи"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/ikt_za_razvoj.pdf",
+        "name": "ИКТ за развој",
+        "code": "F18L3S102",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бизнис и менаџмент"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_mrezhna_nauka.pdf",
+        "name": "Вовед во мрежна наука",
+        "code": "F18L3S087",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Веројатност и статистика",
+                "Основи на теорија на информации"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/mobilni_platformi_i_programiranje.pdf",
+        "name": "Мобилни платформи и програмирање",
+        "code": "F18L3W129",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/blokovski_verigi_i_kriptovaluti.pdf",
+        "name": "Блоковски вериги  и кри птовалути",
+        "code": "F18L3S121",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Криптографија",
+                "Информациска безбедност"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_bioinformatikata.pdf",
+        "name": "Вовед во биоинформатиката",
+        "code": "F18L3W085",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Машинско учење",
+                "Вештачка интелигенција"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kompjuterska_animacija.pdf",
+        "name": "Компјутерска анимација",
+        "code": "F18L3S113",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Компјутерска графика",
+                "Дизајн на интеракцијата човек-компјутер"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/osnovi_na_veb_dizajn.pdf",
+        "name": "Основи на веб дизајн",
+        "code": "F18L1S146",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/kalkulus.pdf",
+        "name": "Калкулус",
+        "code": "F18L1S013",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/kontinuirana_integracija_i_isporaka.pdf",
+        "name": "Континуирана интеграција и испорака",
+        "code": "F18L3S118",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Оперативни системи"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/mashinsko_uchenje.pdf",
+        "name": "Машинско учење",
+        "code": "F18L3S036",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Веројатност и статистика",
+                "Бизнис статистика"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/presmetuvanje_vo_oblak.pdf",
+        "name": "Пресметување во облак",
+        "code": "F18L3W068",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Виртуелизација"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_kompjuterskite_nauki.pdf",
+        "name": "Вовед во компјутерските науки",
+        "code": "F18L1W007",
+        "level": 1,
+        "semester": "Зимски",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/modeliranje_i_menadzhiranje_na_biznis_procesi.pdf",
+        "name": "Моделирање и менаџирање на бизнис процеси",
+        "code": "F18L3S130",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ],
+            [
+                "Софтверско инженерство",
+                "Анализа на софтверските барања"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/mobilni_aplikacii.pdf",
+        "name": "Мобилни апликации",
+        "code": "F18L3S127",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/veb_programiranje.pdf",
+        "name": "Веб програмирање",
+        "code": "F18L3W024",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/softver_za_vgradlivi_sistemi.pdf",
+        "name": "Софтвер за вградливи системи",
+        "code": "F18L3W048",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Вградливи микропроцесорски системи"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/nestrukturirani_bazi_na_podatoci.pdf",
+        "name": "Неструктурирани бази на податоци",
+        "code": "F18L3S141",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/administracija_na_sistemi.pdf",
+        "name": "Администрација на системи",
+        "code": "F18L3W060",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Оперативни системи"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/arhitektura_i_organizacija_na_kompjuteri.pdf",
+        "name": "Архитектура и организација на компјутери",
+        "code": "F18L1S003",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/digitalna_postprodukcija.pdf",
+        "name": "Дигитална постпродукција",
+        "code": "F18L3W092",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Компјутерска графика",
+                "Дигитално процесирање на слика"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/socijalni_mrezhi_i_mediumi.pdf",
+        "name": "Социјални мрежи и медиуми",
+        "code": "F18L3W161",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Вовед во мрежна наука"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_naukata_za_podatoci.pdf",
+        "name": "Вовед во науката за податоци",
+        "code": "F18L3W008",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Бизнис статистика",
+                "Веројатност и статистика",
+                "Основи на теорија на информации"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/analiza_i_dizajn_na_is.pdf",
+        "name": "Анализа и дизајн на ИС",
+        "code": "F18L3W075",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/inovacii_vo_ikt.pdf",
+        "name": "Иновации во ИКТ",
+        "code": "F18L3W105",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Бизнис и менаџмент"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_kognitivni_nauki.pdf",
+        "name": "Вовед во когнитивни науки",
+        "code": "F18L3S086",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Вештачка интелигенција",
+                "Вовед во науката за податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kreativni_veshtini_za_reshavanje_problemi.pdf",
+        "name": "Креативни вештини за решавање проблеми",
+        "code": "F18L1S120",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/veb_prebaruvachki_sistemi.pdf",
+        "name": "Веб пребарувачки системи",
+        "code": "F18L3S080",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Обработка на природните јазици"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/bazi_na_podatoci.pdf",
+        "name": "Бази на податоци",
+        "code": "F18L3W004",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/dizajn_na_algoritmi.pdf",
+        "name": "Дизајн на алгоритми",
+        "code": "F18L2S097",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/agentno-bazirani_sistemi.pdf",
+        "name": "Агентно-базирани системи",
+        "code": "F18L3S073",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Вештачка интелигенција"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/napredni_bazi_na_podatoci.pdf",
+        "name": "Напредни бази на податоци",
+        "code": "F18L3S138",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/internet_na_neshtata.pdf",
+        "name": "Интернет на нештата",
+        "code": "F18L3W108",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Вградливи микропроцесорски системи"
+            ],
+            [
+                "Компјутерски мрежи",
+                "Компјутерски мрежи и безбедност"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/servisno_orientirani_arhitekturi.pdf",
+        "name": "Сервисно ориентирани архитектури",
+        "code": "F18L3S155",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/vgradlivi_mikroprocesorski_sistemi.pdf",
+        "name": "Вградливи микропроцесорски системи",
+        "code": "F18L3S040",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Архитектура и организација на компјутери",
+                "Компјутерски архитектури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/vizuelizacija.pdf",
+        "name": "Визуелизација",
+        "code": "F18L3W081",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/podatochno_rudarstvo.pdf",
+        "name": "Податочно рударство",
+        "code": "F18L3S150",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Веројатност и статистика",
+                "Бизнис статистика",
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/algoritmi_i_podatochni_strukturi.pdf",
+        "name": "Алгоритми и податочни структури",
+        "code": "F18L2W001",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/metodologija_na_istrazhuvanjeto_vo_ikt.pdf",
+        "name": "Методологија на истражувањето во ИКТ",
+        "code": "F18L3W126",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "освоени минимум 150 кредити"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/elektrichni_kola.pdf",
+        "name": "Електрични кола",
+        "code": "F18L2S042",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/implementacija_na_sistemi_so_sloboden_i_otvoren_kod.pdf",
+        "name": "Имплементација на системи со слободен и отворен код",
+        "code": "F18L3W103",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/diskretna_matematika.pdf",
+        "name": "Дискретна математика",
+        "code": "F18L1W011",
+        "level": 1,
+        "semester": "Зимски",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/objektno_orientirana_analiza_i_dizajn.pdf",
+        "name": "Објектно ориентирана анализа и дизајн",
+        "code": "F18L1S015",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/objektno-orientirano_programiranje.pdf",
+        "name": "Објектно-ориентирано програмирање",
+        "code": "F18L1S016",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/mobilni_informaciski_sistemi.pdf",
+        "name": "Мобилни информациски системи",
+        "code": "F18L3W128",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/integrirani_sistemi.pdf",
+        "name": "Интегрирани системи",
+        "code": "F18L3S012",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Анализа и дизајн на софтверски барања",
+                "Софтверско инженерство"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_pametni_gradovi.pdf",
+        "name": "Вовед во паметни градови",
+        "code": "F18L3W088",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Машинско учење"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/dizajn_i_arhitektura_na_softver.pdf",
+        "name": "Дизајн и архитектура на софтвер",
+        "code": "F18L3W009",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Анализа на софтверските барања",
+                "Софтверско инженерство"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/analiza_na_softverskite_baranja.pdf",
+        "name": "Анализа на софтверските барања",
+        "code": "F18L2S002",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Објектно ориентирана анализа и дизајн",
+                "Софтверско инженерство"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/e-vlada.pdf",
+        "name": "Е-влада",
+        "code": "F18L2S099",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бизнис и менаџмент"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/spodeluvanje_i_presmetuvanje_vo_tolpa.pdf",
+        "name": "Споделување и пресметување во толпа",
+        "code": "F18L3S162",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Машинско учење"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/sistemi_za_poddrshka_pri_odluchuvanjeto.pdf",
+        "name": "Системи за поддршка при одлучувањето",
+        "code": "F18L3W156",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Вештачка интелигенција",
+                "Вовед во науката за податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/profesionalni_veshtini.pdf",
+        "name": "Професионални вештини",
+        "code": "F18L1W018",
+        "level": 1,
+        "semester": "Зимски",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/vizuelno_programiranje.pdf",
+        "name": "Визуелно програмирање",
+        "code": "F18L2S082",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kompjuterska_etika.pdf",
+        "name": "Компјутерска етика",
+        "code": "F18L3W053",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Напредно програмирање",
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kompjuterski_mrezhi_i_bezbednost.pdf",
+        "name": "Компјутерски мрежи и безбедност",
+        "code": "F18L2W014",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Архитектура и организација на компјутери"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/softverski_kvalitet_i_testiranje.pdf",
+        "name": "Софтверски квалитет и тестирање",
+        "code": "F18L3S019",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Софтверско инженерство",
+                "Дизајн и архитектура на софтвер"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/veshtachka_inteligencija.pdf",
+        "name": "Вештачка интелигенција",
+        "code": "F18L2S030",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_ekoinformatikata.pdf",
+        "name": "Вовед во екоинформатиката",
+        "code": "F18L2S084",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/skladovi_na_podatoci_i_analitichka_obrabotka.pdf",
+        "name": "Складови на податоци и аналитичка обработка",
+        "code": "F18L3S157",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бази на податоци"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/ekonomija_za_ikt_inzheneri.pdf",
+        "name": "Економија за ИКТ инженери",
+        "code": "F18L2S100",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Бизнис и менаџмент"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/dizajn_na_interakcijata_chovek-kompjuter.pdf",
+        "name": "Дизајн на интеракцијата човек-компјутер",
+        "code": "F18L3S010",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/multimediski_sistemi.pdf",
+        "name": "Мултимедиски системи",
+        "code": "F18L3S135",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/shabloni_za_dizajn_na_korisnichki_interfejsi.pdf",
+        "name": "Шаблони за дизајн на кориснички интерфејси",
+        "code": "F18L2W167",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/napredna_interakcija_chovek_kompjuter.pdf",
+        "name": "Напредна интеракција човек компјутер",
+        "code": "F18L3W137",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Дизајн на интеракцијата човек-компјутер"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/mediumi_i_komunikacii.pdf",
+        "name": "Медиуми и комуникации",
+        "code": "F18L2S124",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Вовед во компјутерските науки"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/upravuvanje_so_tehnichkata_poddrshka.pdf",
+        "name": "Управување со техничката поддршка",
+        "code": "F18L2W165",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Вовед во компјутерските науки"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/menadzhment_informaciski_sistemi.pdf",
+        "name": "Менаџмент информациски системи",
+        "code": "F18L3W027",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Софтверско инженерство",
+                "Анализа на софтверските барања"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/moderni_trendovi_vo_robotika.pdf",
+        "name": "Модерни трендови во роботика",
+        "code": "F18L3S132",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Автономна роботика",
+                "Процесна роботика",
+                "Машинско учење"
+            ],
+            [
+                "Основи на роботиката"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/koncepti_na_informatichko_opshtestvo.pdf",
+        "name": "Концепти на информатичко општество",
+        "code": "F18L2S119",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Вовед во компјутерските науки"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/voved_vo_prepoznavanje_na_oblici.pdf",
+        "name": "Вовед во препознавање на облици",
+        "code": "F18L3W089",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Машинско учење"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/timski_proekt.pdf",
+        "name": "Тимски проект",
+        "code": "F18L3W021",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "освоени минимум 150 кредити"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/multimediski_mrezhi.pdf",
+        "name": "Мултимедиски мрежи",
+        "code": "F18L3W134",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Компјутерски мрежи",
+                "Компјутерски мрежи и безбедност"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/inteligentni_informaciski_sistemi.pdf",
+        "name": "Интелигентни информациски системи",
+        "code": "F18L3S106",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Машинско учење"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/bezzhichni_i_mobilni_sistemi.pdf",
+        "name": "Безжични и мобилни системи",
+        "code": "F18L2S061",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Компјутерски мрежи",
+                "Компјутерски мрежи и безбедност"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/internet_programiranje_na_klientska_strana.pdf",
+        "name": "Интернет програмирање на клиентска страна",
+        "code": "F18L2W109",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/internet_tehnologii.pdf",
+        "name": "Интернет технологии",
+        "code": "F18L2S110",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/marketing.pdf",
+        "name": "Маркетинг",
+        "code": "F18L1S026",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/informaciska_bezbednost.pdf",
+        "name": "Информациска безбедност",
+        "code": "F18L3W043",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Оперативни системи"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/linearna_algebra_i_primeni.pdf",
+        "name": "Линеарна алгебра и примени",
+        "code": "F18L3W035",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Дискретна математика",
+                "Дискретни структури 2"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/upravuvanje_so_ikt_proekti.pdf",
+        "name": "Управување со ИКТ проекти",
+        "code": "F18L3S022",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Софтверско инженерство",
+                "Анализа на софтверските барања"
+            ],
+            [
+                "Веб програмирање",
+                "Интернет технологии",
+                "Имплементација на системи со слободен и отворен код"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/strukturno_programiranje.pdf",
+        "name": "Структурно програмирање",
+        "code": "F18L1W020",
+        "level": 1,
+        "semester": "Зимски",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/napredno_programiranje.pdf",
+        "name": "Напредно програмирање",
+        "code": "F18L2W140",
+        "level": 2,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kompjuterski_komponenti.pdf",
+        "name": "Компјутерски компоненти",
+        "code": "F18L1S116",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/bezzhichni_multimediski_sistemi.pdf",
+        "name": "Безжични мултимедиски системи",
+        "code": "F18L3S077",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Безжични и мобилни системи"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/osnovi_na_robotikata.pdf",
+        "name": "Основи на роботиката",
+        "code": "F18L3W148",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/softversko_inzhenerstvo.pdf",
+        "name": "Софтверско инженерство",
+        "code": "F18L2S029",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Објектно-ориентирано програмирање"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/bioloshki_inspirirano_presmetuvanje.pdf",
+        "name": "Биолошки инспирирано пресметување",
+        "code": "F18L3S078",
+        "level": 3,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ],
+            [
+                "Вештачка интелигенција"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kompjuterski_zvuk_govor_i_muzika.pdf",
+        "name": "Компјутерски звук, говор и музика",
+        "code": "F18L3W115",
+        "level": 3,
+        "semester": "Зимски",
+        "prerequisites": [
+            [
+                "Алгоритми и податочни структури"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/it_sistemi_za_uchenje.pdf",
+        "name": "ИТ системи за учење",
+        "code": "F18L1S052",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    },
+    {
+        "subject_file": "pdfs/voved_vo_sluchajni_procesi.pdf",
+        "name": "Вовед во случајни процеси",
+        "code": "F18L2S090",
+        "level": 2,
+        "semester": "Летен",
+        "prerequisites": [
+            [
+                "Веројатност и статистика",
+                "Основи на теорија на информации"
+            ]
+        ]
+    },
+    {
+        "subject_file": "pdfs/kalkulus_2.pdf",
+        "name": "Калкулус 2",
+        "code": "F18L1S034",
+        "level": 1,
+        "semester": "Летен",
+        "prerequisites": []
+    }
+]
