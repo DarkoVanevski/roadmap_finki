@@ -16,7 +16,7 @@
                             @if(Auth::user()->isAdmin())
                                 Администраторски кориснички сметка. Управувајте со предметите и системските подесувања.
                             @else
-                                Планирајте ја вашата академска патека и добијте персонализирана дорога врз основа на вашите академски цели.
+                                Планирајте ја вашата академска патека и добијте персонализиран roadmap врз основа на вашите академски цели.
                             @endif
                         </p>
                     </div>
@@ -26,9 +26,9 @@
                 @if(Auth::user()->isStudent())
                     <div class="bg-gradient-to-br from-indigo-50 to-blue-50 dark:from-gray-700 dark:to-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6">
-                            <h3 class="text-lg font-semibold text-indigo-900 dark:text-indigo-100 mb-2">Вашата Академска Дорога</h3>
+                            <h3 class="text-lg font-semibold text-indigo-900 dark:text-indigo-100 mb-2">Вашата Академски roadmap</h3>
                             <p class="text-gray-700 dark:text-gray-300 text-sm mb-4">
-                                Создајте персонализирана дорога според избраната студиска програма.
+                                Создајте персонализиран roadmap според избраната студиска програма.
                             </p>
                             <a href="{{ route('roadmap.create') }}" class="inline-flex items-center px-4 py-2 bg-indigo-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-indigo-700 focus:bg-indigo-700 active:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
                                 Почнете
