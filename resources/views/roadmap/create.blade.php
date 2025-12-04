@@ -146,6 +146,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Reattach event listeners to new checkboxes
         attachCheckboxListeners();
 
+        // Attach year header toggle listeners
+        attachYearToggleListeners();
+
         // Apply year filtering
         filterYearSections();
     }
@@ -153,10 +156,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Build year section HTML
     function buildYearSection(year, semesters) {
         let html = `<div class="mb-8 year-section" data-year="${year}" style="display: none;">
-            <h4 class="font-bold text-xl text-indigo-700 mb-6 pb-3 border-b-2 border-indigo-400">
-                Година ${year}
-            </h4>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">`;
+            <div class="bg-indigo-100 rounded-t-lg p-4 cursor-pointer flex items-center justify-between year-header hover:bg-indigo-200 transition" data-year="${year}">
+                <h4 class="font-bold text-xl text-indigo-700">
+                    Година ${year}
+                </h4>
+                <span class="year-toggle-icon text-indigo-700 text-2xl">▼</span>
+            </div>
+            <div class="year-content bg-white rounded-b-lg p-6 " style="display: block;">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">`;
 
         // Winter Semester
         html += buildSemesterSection('winter', semesters.winter, '❄️ Зимски Семестар', 'blue');
@@ -164,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Summer Semester
         html += buildSemesterSection('summer', semesters.summer, '☀️ Летни Семестар', 'amber');
 
-        html += `</div></div>`;
+        html += `</div></div></div>`;
         return html;
     }
 
@@ -274,6 +281,26 @@ document.addEventListener('DOMContentLoaded', function() {
         completedCheckboxes.forEach(cb => {
             cb.addEventListener('change', function() {
                 updateForm();
+            });
+        });
+    }
+
+    // Attach year toggle listeners
+    function attachYearToggleListeners() {
+        const yearHeaders = document.querySelectorAll('.year-header');
+
+        yearHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const yearContent = this.nextElementSibling;
+                const toggleIcon = this.querySelector('.year-toggle-icon');
+
+                if (yearContent.style.display === 'none') {
+                    yearContent.style.display = 'block';
+                    toggleIcon.textContent = '▼';
+                } else {
+                    yearContent.style.display = 'none';
+                    toggleIcon.textContent = '▶';
+                }
             });
         });
     }
