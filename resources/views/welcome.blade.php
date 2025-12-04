@@ -17,7 +17,7 @@
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-gray-700 hover:text-indigo-600 font-medium">Dashboard</a>
                     @else
-                        <a href="{{ route('login') }}" class="text-gray-700 hover:text-indigo-600 font-medium">Најава</a>
+                        <a href="{{ route('login') }}" class="bg-emerald-700 text-white px-4 py-2 rounded-lg hover:bg-teal-700">Најава</a>
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">Регистрација</a>
                         @endif
