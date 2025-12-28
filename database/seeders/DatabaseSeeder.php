@@ -28,6 +28,8 @@ class DatabaseSeeder extends Seeder
             SubjectSeeder::class,
             StudyProgramSeeder::class,
             AssignSubjectsToStudyProgramsSeeder::class,
+            SubjectPrerequisitesSeeder::class,
+            CareerPathSubjectsSeeder::class,
         ]);
     }
 }

@@ -14,6 +14,11 @@
                         @if($studyProgram->name_en)
                             <p class="text-gray-500 italic">{{ $studyProgram->name_en }}</p>
                         @endif
+                        @if($careerPath)
+                            <div class="mt-3 inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">
+                                🎯 Каријерна патека: {{ $careerPath->name }}
+                            </div>
+                        @endif
                     </div>
                     <a href="{{ route('roadmap.create') }}" class="inline-flex items-center px-4 py-2 bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-gray-700 uppercase tracking-widest hover:bg-gray-300 focus:bg-gray-300">
                         Уреди roadmap
@@ -140,7 +145,7 @@
                                                                 <p class="text-gray-500 text-xs mt-2">{{ $item['subject']->credits }} ECTS</p>
                                                             </div>
                                                             <span class="text-sm font-semibold {{ $item['ready'] ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800' }} px-2 py-1 rounded whitespace-nowrap ml-2">
-                                                                {{ $item['ready'] ? '✓ Подготвено' : '🔒 Заблокирано' }}
+                                                                {{ $item['ready'] ? '✓ Подготвено' : '🔒 Немате предуслов' }}
                                                             </span>
                                                         </div>
                                                         @if(!$item['ready'] && $item['prerequisites']->isNotEmpty())
@@ -148,7 +153,7 @@
                                                                 <p class="font-semibold">Потребни предуслови:</p>
                                                                 <ul class="list-disc list-inside">
                                                                     @foreach($item['prerequisites'] as $prereq)
-                                                                        <li class="{{ in_array($prereq->id, $completed->toArray()) ? 'line-through text-gray-500' : '' }}">{{ $prereq->code }}</li>
+                                                                        <li class="{{ in_array($prereq->id, $completed->toArray()) ? 'line-through text-gray-500' : '' }}"><strong>{{ $prereq->code }}</strong> - {{ $prereq->name }}</li>
                                                                     @endforeach
                                                                 </ul>
                                                             </div>
@@ -167,7 +172,7 @@
                                     <!-- Summer Semester -->
                                     @if(count($semesters['summer']) > 0)
                                         <div class="bg-amber-50 rounded-lg p-6 border-l-4 border-amber-600">
-                                            <h5 class="font-bold text-lg text-amber-700 mb-4">☀️ Летни семестар</h5>
+                                            <h5 class="font-bold text-lg text-amber-700 mb-4">☀️ Летен семестар</h5>
                                             <div class="space-y-3">
                                                 @foreach($semesters['summer'] as $item)
                                                     <div class="bg-white p-3 rounded border {{ $item['ready'] ? 'border-green-300' : 'border-gray-300' }}">
@@ -181,7 +186,7 @@
                                                                 <p class="text-gray-500 text-xs mt-2">{{ $item['subject']->credits }} ECTS</p>
                                                             </div>
                                                             <span class="text-sm font-semibold {{ $item['ready'] ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800' }} px-2 py-1 rounded whitespace-nowrap ml-2">
-                                                                {{ $item['ready'] ? '✓ Подготвено' : '🔒 Заблокирано' }}
+                                                                {{ $item['ready'] ? '✓ Подготвено' : '🔒 Немате предуслов' }}
                                                             </span>
                                                         </div>
                                                         @if(!$item['ready'] && $item['prerequisites']->isNotEmpty())
@@ -189,7 +194,7 @@
                                                                 <p class="font-semibold">Потребни предуслови:</p>
                                                                 <ul class="list-disc list-inside">
                                                                     @foreach($item['prerequisites'] as $prereq)
-                                                                        <li class="{{ in_array($prereq->id, $completed->toArray()) ? 'line-through text-gray-500' : '' }}">{{ $prereq->code }}</li>
+                                                                        <li class="{{ in_array($prereq->id, $completed->toArray()) ? 'line-through text-gray-500' : '' }}"><strong>{{ $prereq->code }}</strong> - {{ $prereq->name }}</li>
                                                                     @endforeach
                                                                 </ul>
                                                             </div>
@@ -200,7 +205,7 @@
                                         </div>
                                     @else
                                         <div class="bg-amber-50 rounded-lg p-6 border-l-4 border-amber-600 opacity-60">
-                                            <h5 class="font-bold text-lg text-amber-700 mb-2">☀️ Летни семестар</h5>
+                                            <h5 class="font-bold text-lg text-amber-700 mb-2">☀️ Летен семестар</h5>
                                             <p class="text-gray-500 text-sm">Нема предмети</p>
                                         </div>
                                     @endif
@@ -252,9 +257,14 @@
                                                 <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">
                                                     {{ $item['subject']->credits ?? 6 }} ECTS
                                                 </span>
-                                                <span class="inline-block bg-{{ $item['subject']->subject_type === 'mandatory' ? 'red' : 'orange' }}-100 text-{{ $item['subject']->subject_type === 'mandatory' ? 'red' : 'orange' }}-800 text-xs px-2 py-1 rounded">
-                                                    {{ $item['subject']->subject_type === 'mandatory' ? 'Задолжително' : 'Избирачко' }}
+                                                <span class="inline-block bg-{{ $item['type'] === 'mandatory' ? 'red' : 'orange' }}-100 text-{{ $item['type'] === 'mandatory' ? 'red' : 'orange' }}-800 text-xs px-2 py-1 rounded">
+                                                    {{ $item['type'] === 'mandatory' ? 'Задолжителен' : 'Изборен' }}
                                                 </span>
+                                                @if($careerPath && isset($item['inCareerPath']) && $item['inCareerPath'])
+                                                    <span class="inline-block bg-purple-200 text-purple-900 text-xs px-2 py-1 rounded font-semibold">
+                                                        🎯 {{ $careerPath->name }}
+                                                    </span>
+                                                @endif
                                             </div>
                                             @if($item['subject']->description)
                                                 <p class="text-gray-600 text-sm mt-3">{{ $item['subject']->description }}</p>
@@ -279,7 +289,7 @@
                                                         <p class="text-gray-600 text-sm italic">{{ $item['subject']->name_mk }}</p>
                                                     @endif
                                                 </div>
-                                                <span class="bg-gray-600 text-white text-xs px-3 py-1 rounded-full font-semibold whitespace-nowrap ml-2">Заблокирано</span>
+                                                <span class="bg-gray-600 text-white text-xs px-3 py-1 rounded-full font-semibold whitespace-nowrap ml-2">Немате предуслов</span>
                                             </div>
 
                                             @if($item['prerequisites']->isNotEmpty())
@@ -299,7 +309,7 @@
                                                                     @endif
                                                                 </span>
                                                                 <span class="{{ $isCompleted ? 'line-through text-gray-500' : '' }}">
-                                                                    {{ $prereq->code }}
+                                                                    <strong>{{ $prereq->code }}</strong> - {{ $prereq->name }}
                                                                 </span>
                                                             </li>
                                                         @endforeach

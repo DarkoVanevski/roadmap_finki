@@ -26,7 +26,7 @@
                 @if(Auth::user()->isStudent())
                     <div class="bg-gradient-to-br from-indigo-50 to-blue-50 dark:from-gray-700 dark:to-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6">
-                            <h3 class="text-lg font-semibold text-indigo-900 dark:text-indigo-100 mb-2">Вашата Академски roadmap</h3>
+                            <h3 class="text-lg font-semibold text-indigo-900 dark:text-indigo-100 mb-2">Вашиот Академски roadmap</h3>
                             <p class="text-gray-700 dark:text-gray-300 text-sm mb-4">
                                 Создајте персонализиран roadmap според избраната студиска програма.
                             </p>

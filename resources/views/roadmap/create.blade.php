@@ -34,22 +34,43 @@
                                 @enderror
                             </div>
 
-                            <!-- Current Year Selection -->
+                            <!-- Career Path Selection -->
                             <div>
-                                <label for="current_year" class="block font-bold text-sm text-gray-900 mb-2">
-                                    Моја тековна година <span class="text-red-500">*</span>
+                                <label for="career_path_id" class="block font-bold text-sm text-gray-900 mb-2">
+                                    Избор на Каријерна Патека <span class="text-gray-500">(опционално)</span>
                                 </label>
-                                <select id="current_year" name="current_year" class="mt-1 block w-full px-4 py-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-base" required>
-                                    <option value="">-- Изберете година --</option>
-                                    <option value="1">1-ва година</option>
-                                    <option value="2">2-ра година</option>
-                                    <option value="3">3-та година</option>
-                                    <option value="4">4-та година</option>
+                                <select id="career_path_id" name="career_path_id" class="mt-1 block w-full px-4 py-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-base">
+                                    <option value="">-- Изберете каријерна патека (опционално) --</option>
+                                    @forelse($careerPaths as $path)
+                                        <option value="{{ $path->id }}" title="{{ $path->description }}">
+                                            {{ $path->name }}
+                                        </option>
+                                    @empty
+                                        <option disabled>Нема достапни каријерни патеки</option>
+                                    @endforelse
                                 </select>
-                                @error('current_year')
+                                <p class="text-xs text-gray-500 mt-2">Изберете каријерна патека за да добиете персонализирани препораки за предметите.</p>
+                                @error('career_path_id')
                                     <p class="text-red-500 text-sm mt-2">{{ $message }}</p>
                                 @enderror
                             </div>
+                        </div>
+
+                        <!-- Current Year Selection - Now full width -->
+                        <div class="mt-6">
+                            <label for="current_year" class="block font-bold text-sm text-gray-900 mb-2">
+                                Моја тековна година <span class="text-red-500">*</span>
+                            </label>
+                            <select id="current_year" name="current_year" class="mt-1 block w-full px-4 py-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-base" required>
+                                <option value="">-- Изберете година --</option>
+                                <option value="1">1-ва година</option>
+                                <option value="2">2-ра година</option>
+                                <option value="3">3-та година</option>
+                                <option value="4">4-та година</option>
+                            </select>
+                            @error('current_year')
+                                <p class="text-red-500 text-sm mt-2">{{ $message }}</p>
+                            @enderror
                         </div>
 
                         <div class="mt-4 p-3 bg-white rounded border border-indigo-200">

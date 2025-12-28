@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CareerPath;
 use App\Models\StudyProgram;
 use App\Models\Subject;
 use App\Models\UserProgress;
@@ -16,10 +17,12 @@ class RoadmapController extends Controller
     public function create(): View
     {
         $studyPrograms = StudyProgram::all();
+        $careerPaths = CareerPath::all();
         // Don't fetch subjects here - they'll be loaded dynamically via AJAX
 
         return view('roadmap.create', [
             'studyPrograms' => $studyPrograms,
+            'careerPaths' => $careerPaths,
             'subjects' => [], // Empty initially, will be populated by JavaScript
         ]);
     }
@@ -57,6 +60,7 @@ class RoadmapController extends Controller
     {
         $validated = $request->validate([
             'study_program_id' => 'required|exists:study_programs,id',
+            'career_path_id' => 'nullable|exists:career_paths,id',
             'completed_subjects' => 'array',
             'completed_subjects.*' => 'exists:subjects,id',
             'in_progress_subjects' => 'array',
@@ -64,6 +68,7 @@ class RoadmapController extends Controller
         ]);
 
         $studyProgram = StudyProgram::with('subjects')->findOrFail($validated['study_program_id']);
+        $careerPath = $validated['career_path_id'] ? CareerPath::findOrFail($validated['career_path_id']) : null;
         $completedIds = $validated['completed_subjects'] ?? [];
         $inProgressIds = $validated['in_progress_subjects'] ?? [];
 
@@ -80,6 +85,7 @@ class RoadmapController extends Controller
                 'user_id' => $user->id,
                 'subject_id' => $subjectId,
                 'study_program_id' => $studyProgram->id,
+                'career_path_id' => $careerPath?->id,
                 'status' => 'completed',
                 'completed_at' => now(),
             ]);
@@ -91,16 +97,18 @@ class RoadmapController extends Controller
                 'user_id' => $user->id,
                 'subject_id' => $subjectId,
                 'study_program_id' => $studyProgram->id,
+                'career_path_id' => $careerPath?->id,
                 'status' => 'in_progress',
             ]);
         }
 
         // Generate roadmap
-        $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds);
-        $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds);
+        $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds, $careerPath);
+        $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds, $careerPath);
 
         return view('roadmap.show', [
             'studyProgram' => $studyProgram,
+            'careerPath' => $careerPath,
             'roadmap' => $roadmap,
             'semesterRoadmap' => $semesterRoadmap,
             'completed' => collect($completedIds),
@@ -111,13 +119,34 @@ class RoadmapController extends Controller
     /**
      * Generate recommended roadmap based on user progress and prerequisites
      */
-    private function generateRoadmap($userId, StudyProgram $studyProgram, array $completedIds, array $inProgressIds)
+    private function generateRoadmap($userId, StudyProgram $studyProgram, array $completedIds, array $inProgressIds, $careerPath = null)
     {
         $allSubjects = $studyProgram->subjects()->get();
         $remaining = [];
 
+        // Get subject IDs for career path if one is selected
+        $careerPathSubjectIds = $careerPath ? $careerPath->subjects()->pluck('subjects.id')->toArray() : [];
+
         foreach ($allSubjects as $subject) {
+            // Skip subjects from years beyond the program duration
+            if ($subject->year > $studyProgram->duration_years) {
+                continue;
+            }
+
             if (!in_array($subject->id, $completedIds) && !in_array($subject->id, $inProgressIds)) {
+                // If career path is selected, filter to show:
+                // 1. Mandatory subjects (always show)
+                // 2. Electives related to the career path
+                if ($careerPath) {
+                    $isElective = ($subject->pivot->type ?? 'mandatory') === 'elective';
+                    $isInCareerPath = in_array($subject->id, $careerPathSubjectIds);
+
+                    // Skip electives not in the career path
+                    if ($isElective && !$isInCareerPath) {
+                        continue;
+                    }
+                }
+
                 // Check if prerequisites are met
                 $prerequisites = $subject->prerequisites()->get();
                 $prerequisitesMet = true;
@@ -139,6 +168,7 @@ class RoadmapController extends Controller
                     'ready' => $prerequisitesMet,
                     'year' => $subject->year,
                     'type' => $subject->pivot->type ?? 'mandatory',
+                    'inCareerPath' => $careerPath && in_array($subject->id, $careerPathSubjectIds),
                 ];
             }
         }
@@ -172,6 +202,7 @@ class RoadmapController extends Controller
         }
 
         $studyProgram = $latestProgress->studyProgram;
+        $careerPath = $latestProgress->careerPath;
 
         $completedIds = $user->progress()
             ->where('study_program_id', $studyProgram->id)
@@ -185,11 +216,12 @@ class RoadmapController extends Controller
             ->pluck('subject_id')
             ->toArray();
 
-        $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds);
-        $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds);
+        $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds, $careerPath);
+        $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds, $careerPath);
 
         return view('roadmap.show', [
             'studyProgram' => $studyProgram,
+            'careerPath' => $careerPath,
             'roadmap' => $roadmap,
             'semesterRoadmap' => $semesterRoadmap,
             'completed' => collect($completedIds),
@@ -200,20 +232,41 @@ class RoadmapController extends Controller
     /**
      * Generate semester-by-semester roadmap for upcoming years
      */
-    private function generateSemesterRoadmap(StudyProgram $studyProgram, array $completedIds, array $inProgressIds)
+    private function generateSemesterRoadmap(StudyProgram $studyProgram, array $completedIds, array $inProgressIds, $careerPath = null)
     {
         $allSubjects = $studyProgram->subjects()->orderBy('year')->orderBy('semester_type')->get();
 
         // Build roadmap organized by year and semester
         $roadmap = [];
 
+        // Get subject IDs for career path if one is selected
+        $careerPathSubjectIds = $careerPath ? $careerPath->subjects()->pluck('subjects.id')->toArray() : [];
+
         foreach ($allSubjects as $subject) {
             $year = $subject->year;
             $semester = $subject->getSemesterTypeFromCode() === 'winter' ? 'winter' : 'summer';
 
+            // Skip subjects from years beyond the program duration
+            if ($year > $studyProgram->duration_years) {
+                continue;
+            }
+
             // Skip if already completed or in progress
             if (in_array($subject->id, $completedIds) || in_array($subject->id, $inProgressIds)) {
                 continue;
+            }
+
+            // If career path is selected, filter to show:
+            // 1. Mandatory subjects (always show)
+            // 2. Electives related to the career path
+            if ($careerPath) {
+                $isElective = ($subject->pivot->type ?? 'mandatory') === 'elective';
+                $isInCareerPath = in_array($subject->id, $careerPathSubjectIds);
+
+                // Skip electives not in the career path
+                if ($isElective && !$isInCareerPath) {
+                    continue;
+                }
             }
 
             // Check prerequisites

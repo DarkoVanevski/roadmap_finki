@@ -13,6 +13,7 @@ class UserProgress extends Model
         'user_id',
         'subject_id',
         'study_program_id',
+        'career_path_id',
         'status',
         'completed_at',
     ];
@@ -34,5 +35,10 @@ class UserProgress extends Model
     public function studyProgram(): BelongsTo
     {
         return $this->belongsTo(StudyProgram::class);
+    }
+
+    public function careerPath(): BelongsTo
+    {
+        return $this->belongsTo(CareerPath::class);
     }
 }
