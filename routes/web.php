@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RoadmapController;
 use App\Http\Controllers\SubjectController;
+use App\Http\Controllers\StudyProgramController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -26,6 +27,7 @@ Route::middleware('auth')->group(function () {
 
     // Admin routes
     Route::resource('subjects', SubjectController::class)->middleware('admin');
+    Route::resource('study-programs', StudyProgramController::class)->middleware('admin');
 });
 
 require __DIR__.'/auth.php';

@@ -10,9 +10,19 @@ class SubjectController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $subjects = Subject::orderBy('year')->orderBy('semester_type')->orderBy('code')->paginate(20);
+        $query = Subject::query();
+
+        if ($request->filled('search')) {
+            $search = $request->input('search');
+            $query->where('name', 'like', "%{$search}%")
+                  ->orWhere('name_mk', 'like', "%{$search}%")
+                  ->orWhere('code', 'like', "%{$search}%");
+        }
+
+        $subjects = $query->orderBy('year')->orderBy('semester_type')->orderBy('code')->paginate(20);
+
         return view('admin.subjects.index', compact('subjects'));
     }
 
@@ -61,14 +71,13 @@ class SubjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Subject $subject)
+public function edit(Subject $subject)
     {
-        $prerequisites = Subject::whereNotIn('id', [$subject->id])->get();
-        return view('admin.subjects.edit', compact('subject', 'prerequisites'));
-    }
+        $prerequisites = Subject::whereNotIn('id', [$subject->id])->orderBy('year')->orderBy('code')->get();
+        $careerPaths = \App\Models\CareerPath::all();
+        return view('admin.subjects.edit', compact('subject', 'prerequisites', 'careerPaths'));    }
 
-    /**
-     * Update the specified resource in storage.
+    /**     * Update the specified resource in storage.
      */
     public function update(Request $request, Subject $subject)
     {
@@ -88,12 +97,16 @@ class SubjectController extends Controller
             'practice_hours' => 'nullable|integer',
             'prerequisites' => 'nullable|array',
             'prerequisites.*' => 'exists:subjects,id',
+            'career_paths' => 'nullable|array',
+            'career_paths.*' => 'exists:career_paths,id',
         ]);
 
         $prerequisiteIds = $request->input('prerequisites', []);
+        $careerPathIds = $request->input('career_paths', []);
 
         $subject->update($validated);
         $subject->prerequisites()->sync($prerequisiteIds);
+        $subject->careerPaths()->sync($careerPathIds);
 
         return redirect()->route('subjects.index')->with('success', 'Subject updated successfully');
     }

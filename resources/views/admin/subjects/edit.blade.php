@@ -110,12 +110,34 @@
                         @error('instructors') <p class="text-red-500 text-sm mt-1">{{ $message }}</p> @enderror
                     </div>
 
+                    <!-- Career Paths -->
+                    <div>
+                        <label for="career_paths" class="block text-sm font-bold text-gray-900 mb-2">Патеки на развој</label>
+                        <select id="career_paths" name="career_paths[]" multiple class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                            @foreach($careerPaths as $careerPath)
+                                <option value="{{ $careerPath->id }}" {{ $subject->careerPaths->contains($careerPath->id) ? 'selected' : '' }}>
+                                    {{ $careerPath->name }}
+                                </option>
+                            @endforeach
+                        </select>
+                        <p class="text-gray-500 text-sm mt-1">Задржите Ctrl/Cmd за да изберете повеќе (само за изборни предмети)</p>
+                        @error('career_paths') <p class="text-red-500 text-sm mt-1">{{ $message }}</p> @enderror
+                    </div>
+
                     <!-- Prerequisites -->
                     <div>
                         <label for="prerequisites" class="block text-sm font-bold text-gray-900 mb-2">Предуслови</label>
+                        <div class="mb-3">
+                            <input
+                                type="text"
+                                id="prerequisitesSearch"
+                                placeholder="Пребарај по имена или код..."
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            >
+                        </div>
                         <select id="prerequisites" name="prerequisites[]" multiple class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                             @foreach($prerequisites as $prereq)
-                                <option value="{{ $prereq->id }}" {{ $subject->prerequisites->contains($prereq->id) ? 'selected' : '' }}>
+                                <option value="{{ $prereq->id }}" data-search="{{ strtolower($prereq->code . ' ' . $prereq->name . ' ' . $prereq->name_mk) }}" {{ $subject->prerequisites->contains($prereq->id) ? 'selected' : '' }}>
                                     {{ $prereq->code }} - {{ $prereq->name }}
                                 </option>
                             @endforeach
@@ -123,6 +145,21 @@
                         <p class="text-gray-500 text-sm mt-1">Задржите Ctrl/Cmd за да изберете повеќе</p>
                         @error('prerequisites') <p class="text-red-500 text-sm mt-1">{{ $message }}</p> @enderror
                     </div>
+
+                    <script>
+                        document.getElementById('prerequisitesSearch').addEventListener('input', function(e) {
+                            const searchTerm = e.target.value.toLowerCase();
+                            const options = document.querySelectorAll('#prerequisites option');
+
+                            options.forEach(option => {
+                                if (searchTerm === '' || option.dataset.search.includes(searchTerm)) {
+                                    option.style.display = '';
+                                } else {
+                                    option.style.display = 'none';
+                                }
+                            });
+                        });
+                    </script>
 
                     <!-- Buttons -->
                     <div class="flex justify-between pt-6 border-t">

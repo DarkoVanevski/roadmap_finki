@@ -15,6 +15,19 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    @if(Auth::user()->isAdmin())
+                        <x-nav-link :href="route('subjects.index')" :active="request()->routeIs('subjects.*')">
+                            {{ __('Предмети') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('study-programs.index')" :active="request()->routeIs('study-programs.*')">
+                            {{ __('Студиски програми') }}
+                        </x-nav-link>
+                    @endif
+                    @if(Auth::user()->isStudent())
+                        <x-nav-link :href="route('roadmap.create')" :active="request()->routeIs('roadmap.*')">
+                            {{ __('Академски roadmap') }}
+                        </x-nav-link>
+                    @endif
                 </div>
             </div>
 

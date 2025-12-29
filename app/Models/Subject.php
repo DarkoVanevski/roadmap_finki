@@ -56,6 +56,11 @@ class Subject extends Model
         return $this->hasMany(UserProgress::class);
     }
 
+    public function careerPaths(): BelongsToMany
+    {
+        return $this->belongsToMany(CareerPath::class, 'career_path_subject');
+    }
+
     public function getDisplayName(): string
     {
         return $this->code . ' - ' . $this->name;

@@ -9,6 +9,34 @@
                         + Додади нов предмет
                     </a>
                 </div>
+                
+                <div class="mb-6">
+                    <form action="{{ route('subjects.index') }}" method="GET" class="flex gap-3">
+                        <input 
+                            type="text" 
+                            name="search" 
+                            placeholder="Пребарај по имена или код..." 
+                            value="{{ request('search') }}" 
+                            class="flex-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                        >
+                        <button 
+                            type="submit" 
+                            class="px-6 py-2 bg-indigo-600 text-white rounded-md font-semibold text-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        >
+                            Пребарај
+                        </button>
+                        @if(request('search'))
+                            <a 
+                                href="{{ route('subjects.index') }}" 
+                                class="px-6 py-2 bg-gray-300 text-gray-800 rounded-md font-semibold text-sm hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+                            >
+                                Ресетирај
+                            </a>
+                        @endif
+                    </form>
+                </div>
+
+
 
                 @if(session('success'))
                     <div class="mb-4 p-4 bg-green-50 border border-green-200 rounded-lg">
@@ -16,6 +44,7 @@
                     </div>
                 @endif
 
+                
                 <div class="overflow-x-auto">
                     <table class="min-w-full border-collapse border border-gray-300">
                         <thead class="bg-gray-100">
