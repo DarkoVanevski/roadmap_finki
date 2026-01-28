@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
         html += buildSemesterSection('winter', semesters.winter, '❄️ Зимски Семестар', 'blue');
 
         // Summer Semester
-        html += buildSemesterSection('summer', semesters.summer, '☀️ Летни Семестар', 'amber');
+        html += buildSemesterSection('summer', semesters.summer, '☀️ Летен Семестар', 'amber');
 
         html += `</div></div></div>`;
         return html;

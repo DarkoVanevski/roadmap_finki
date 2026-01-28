@@ -20,8 +20,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     // Roadmap routes
+    Route::get('/roadmap/history', [RoadmapController::class, 'history'])->name('roadmap.history');
     Route::get('/roadmap/create', [RoadmapController::class, 'create'])->name('roadmap.create');
     Route::post('/roadmap', [RoadmapController::class, 'store'])->name('roadmap.store');
+    Route::get('/roadmap/{roadmap}/edit', [RoadmapController::class, 'edit'])->name('roadmap.edit');
+    Route::delete('/roadmap/{roadmap}', [RoadmapController::class, 'destroy'])->name('roadmap.destroy');
     Route::get('/roadmap', [RoadmapController::class, 'show'])->name('roadmap.show');
     Route::get('/api/study-program/{programId}/subjects', [RoadmapController::class, 'getSubjectsByProgram'])->name('api.program.subjects');
 

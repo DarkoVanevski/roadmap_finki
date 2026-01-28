@@ -3,14 +3,17 @@
 namespace App\Http\Controllers;
 
 use App\Models\CareerPath;
+use App\Models\Roadmap;
 use App\Models\StudyProgram;
 use App\Models\Subject;
 use App\Models\UserProgress;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class RoadmapController extends Controller
 {
+    use AuthorizesRequests;
     /**
      * Show the roadmap form where user inputs completed, current, and desired study program
      */
@@ -37,6 +40,10 @@ class RoadmapController extends Controller
             ->orderBy('year')
             ->orderBy('semester_type')
             ->get()
+            ->filter(function ($subject) use ($program) {
+                // Only include subjects within the program's duration
+                return $subject->year <= $program->duration_years;
+            })
             ->map(function ($subject) {
                 return [
                     'id' => $subject->id,
@@ -105,6 +112,22 @@ class RoadmapController extends Controller
         // Generate roadmap
         $roadmap = $this->generateRoadmap($user->id, $studyProgram, $completedIds, $inProgressIds, $careerPath);
         $semesterRoadmap = $this->generateSemesterRoadmap($studyProgram, $completedIds, $inProgressIds, $careerPath);
+
+        // Save the generated roadmap to database
+        $roadmapData = $this->serializeRoadmapData($roadmap);
+        $semesterRoadmapData = $this->serializeSemesterRoadmapData($semesterRoadmap);
+
+        Roadmap::updateOrCreate(
+            [
+                'user_id' => $user->id,
+                'study_program_id' => $studyProgram->id,
+            ],
+            [
+                'career_path_id' => $careerPath?->id,
+                'roadmap_data' => $roadmapData,
+                'semester_roadmap_data' => $semesterRoadmapData,
+            ]
+        );
 
         return view('roadmap.show', [
             'studyProgram' => $studyProgram,
@@ -193,16 +216,18 @@ class RoadmapController extends Controller
     public function show(): View
     {
         $user = auth()->user();
-        $latestProgress = $user->progress()
-            ->latest()
+
+        // Get the latest roadmap for the user
+        $latestRoadmap = Roadmap::where('user_id', $user->id)
+            ->latest('updated_at')
             ->first();
 
-        if (!$latestProgress) {
-            return redirect()->route('roadmap.create')->with('info', 'Please select a study program first.');
+        if (!$latestRoadmap) {
+            return view('roadmap.no-roadmap');
         }
 
-        $studyProgram = $latestProgress->studyProgram;
-        $careerPath = $latestProgress->careerPath;
+        $studyProgram = $latestRoadmap->studyProgram;
+        $careerPath = $latestRoadmap->careerPath;
 
         $completedIds = $user->progress()
             ->where('study_program_id', $studyProgram->id)
@@ -227,6 +252,83 @@ class RoadmapController extends Controller
             'completed' => collect($completedIds),
             'inProgress' => collect($inProgressIds),
         ]);
+    }
+
+    /**
+     * Show all roadmaps history for the user
+     */
+    public function history(): View
+    {
+        $user = auth()->user();
+        $roadmaps = Roadmap::where('user_id', $user->id)
+            ->with('studyProgram', 'careerPath')
+            ->orderBy('updated_at', 'desc')
+            ->paginate(10);
+
+        return view('roadmap.history', [
+            'roadmaps' => $roadmaps,
+        ]);
+    }
+
+    /**
+     * Edit an existing roadmap
+     */
+    public function edit(Roadmap $roadmap): View
+    {
+        $this->authorize('view', $roadmap);
+
+        $user = auth()->user();
+        $studyProgram = $roadmap->studyProgram;
+        $careerPath = $roadmap->careerPath;
+
+        // Get current completed and in-progress subject IDs
+        $completedIds = $user->progress()
+            ->where('study_program_id', $studyProgram->id)
+            ->where('status', 'completed')
+            ->pluck('subject_id')
+            ->toArray();
+
+        $inProgressIds = $user->progress()
+            ->where('study_program_id', $studyProgram->id)
+            ->where('status', 'in_progress')
+            ->pluck('subject_id')
+            ->toArray();
+
+        // Get all study programs and career paths
+        $studyPrograms = StudyProgram::all();
+        $careerPaths = CareerPath::all();
+
+        return view('roadmap.edit', [
+            'roadmap' => $roadmap,
+            'studyProgram' => $studyProgram,
+            'careerPath' => $careerPath,
+            'studyPrograms' => $studyPrograms,
+            'careerPaths' => $careerPaths,
+            'completedIds' => $completedIds,
+            'inProgressIds' => $inProgressIds,
+        ]);
+    }
+
+    /**
+     * Delete a roadmap
+     */
+    public function destroy(Roadmap $roadmap)
+    {
+        $this->authorize('delete', $roadmap);
+
+        $user = auth()->user();
+        $studyProgram = $roadmap->studyProgram;
+
+        // Delete the roadmap
+        $roadmap->delete();
+
+        // Delete associated user progress
+        UserProgress::where('user_id', $user->id)
+            ->where('study_program_id', $studyProgram->id)
+            ->delete();
+
+        return redirect()->route('roadmap.show')
+            ->with('success', 'Roadmap deleted successfully.');
     }
 
     /**
@@ -298,5 +400,51 @@ class RoadmapController extends Controller
         }
 
         return $roadmap;
+    }
+
+    /**
+     * Serialize roadmap data for storage in JSON format
+     */
+    private function serializeRoadmapData(array $roadmap): array
+    {
+        return array_map(function ($item) {
+            return [
+                'subject_id' => $item['subject']->id,
+                'subject_code' => $item['subject']->code,
+                'subject_name' => $item['subject']->name,
+                'subject_name_mk' => $item['subject']->name_mk,
+                'prerequisites' => $item['prerequisites']->pluck('id')->toArray(),
+                'ready' => $item['ready'],
+                'year' => $item['year'],
+                'type' => $item['type'],
+                'inCareerPath' => $item['inCareerPath'],
+                'credits' => $item['subject']->credits,
+            ];
+        }, $roadmap);
+    }
+
+    /**
+     * Serialize semester roadmap data for storage in JSON format
+     */
+    private function serializeSemesterRoadmapData(array $semesterRoadmap): array
+    {
+        $serialized = [];
+        foreach ($semesterRoadmap as $year => $semesters) {
+            $serialized[$year] = [];
+            foreach ($semesters as $semester => $items) {
+                $serialized[$year][$semester] = array_map(function ($item) {
+                    return [
+                        'subject_id' => $item['subject']->id,
+                        'subject_code' => $item['subject']->code,
+                        'subject_name' => $item['subject']->name,
+                        'subject_name_mk' => $item['subject']->name_mk,
+                        'prerequisites' => $item['prerequisites']->pluck('id')->toArray(),
+                        'ready' => $item['ready'],
+                        'credits' => $item['subject']->credits,
+                    ];
+                }, $items);
+            }
+        }
+        return $serialized;
     }
 }

@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Models\Roadmap;
+use App\Policies\RoadmapPolicy;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +22,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->registerPolicies();
+    }
+
+    /**
+     * Register authorization policies
+     */
+    protected function registerPolicies(): void
+    {
+        Gate::policy(Roadmap::class, RoadmapPolicy::class);
     }
 }

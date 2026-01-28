@@ -20,9 +20,33 @@
                             </div>
                         @endif
                     </div>
-                    <a href="{{ route('roadmap.create') }}" class="inline-flex items-center px-4 py-2 bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-gray-700 uppercase tracking-widest hover:bg-gray-300 focus:bg-gray-300">
-                        Уреди roadmap
-                    </a>
+                    <div class="flex gap-2">
+                        @php
+                            // Get the current roadmap for this user and study program
+                            $currentRoadmap = \App\Models\Roadmap::where('user_id', auth()->id())
+                                ->where('study_program_id', $studyProgram->id)
+                                ->first();
+                        @endphp
+                        @if($currentRoadmap)
+                            <a href="{{ route('roadmap.edit', $currentRoadmap) }}" class="inline-flex items-center px-4 py-2 bg-blue-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-blue-700">
+                                ✏️ Уреди
+                            </a>
+                            <form action="{{ route('roadmap.destroy', $currentRoadmap) }}" method="POST" class="inline" onsubmit="return confirm('Дали сте сигурни дека сакате да го избришете овој roadmap?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="inline-flex items-center px-4 py-2 bg-red-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-700">
+                                    🗑️ Избриши
+                                </button>
+                            </form>
+                        @else
+                            <a href="{{ route('roadmap.create') }}" class="inline-flex items-center px-4 py-2 bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-gray-700 uppercase tracking-widest hover:bg-gray-300">
+                                Создај нов roadmap
+                            </a>
+                        @endif
+                        <a href="{{ route('roadmap.history') }}" class="inline-flex items-center px-4 py-2 bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-gray-700 uppercase tracking-widest hover:bg-gray-300">
+                            📋 Историја
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -24,10 +24,11 @@
                         </x-nav-link>
                     @endif
                     @if(Auth::user()->isStudent())
-                        <x-nav-link :href="route('roadmap.create')" :active="request()->routeIs('roadmap.*')">
+                        <x-nav-link :href="route('roadmap.show')" :active="request()->routeIs('roadmap.*')">
                             {{ __('Академски roadmap') }}
                         </x-nav-link>
                     @endif
+
                 </div>
             </div>
 
